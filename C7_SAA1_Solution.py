@@ -81,7 +81,7 @@ while carryOn:
         
     # Code for red brick and ball collision here
     for i in bricksR:
-        # Remove red brick using "collidepont()" function
+        # Remove red brick using "collidepoint()" function
         if i.collidepoint(ball.x,ball.y):
             bricksR.remove(i)
             # Reverse ball direction upon collision
@@ -92,7 +92,7 @@ while carryOn:
     
     # Code for orange brick and ball collision here
     for i in bricksO:
-        # Remove orange brick using "collidepont()" function
+        # Remove orange brick using "collidepoint()" function
         if i.collidepoint(ball.x,ball.y):
             bricksO.remove(i)
             # Reverse ball direction upon collision
@@ -103,7 +103,7 @@ while carryOn:
             
     # Code for yellow brick and ball collision here
     for i in bricksY:
-        # Remove yellow brick using "collidepont()" function
+        # Remove yellow brick using "collidepoint()" function
         if i.collidepoint(ball.x,ball.y):
             bricksY.remove(i)
             # Reverse ball direction upon collision
